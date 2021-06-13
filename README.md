@@ -15,8 +15,11 @@ This repository contains the codes used for this device, as well as some files f
 ## File description 
 **CAD_files**
 
-CAD_files/DFX_laser_cutting/ : *CAD files that can be used for laser cutting the pieces of the device*
+- readme_CAD_files
 
+CAD_files/DXF_laser_cutting/ : *CAD files that can be used for laser cutting the pieces of the device*
+
+- readme_DXF_laser_cutting.txt
 - cover_window_PMMA_3mm.dxf
 - frame_window_PMMA_8mm.dxf
 - support_1_CP_aviation_1mm.dxf
@@ -27,6 +30,7 @@ CAD_files/DFX_laser_cutting/ : *CAD files that can be used for laser cutting the
 
 CAD_files/F3D_files/ : *Fusion files of the different pieces for 3d printing*
 
+- readme_F3D_files.txt
 - Support_1.f3d
 - Support_2.f3d
 - Support_3.f3d
@@ -41,6 +45,7 @@ CAD_files/F3D_files/ : *Fusion files of the different pieces for 3d printing*
 
 CAD_files/STEP_files/ : *Files for 3D printing*
 
+- readme_STEP_files
 - Support_1.step
 - Support_2.step
 - Support_3.step
@@ -54,6 +59,7 @@ CAD_files/STEP_files/ : *Files for 3D printing*
 
 CAD_files/STL_3D_printing/
 
+- readme_STEP_files.txt
 - closing_electronic_box_1x.stl
 - electronic_box_1x.stl
 - fixation_4x.stl
