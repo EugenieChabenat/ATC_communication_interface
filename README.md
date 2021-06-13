@@ -25,7 +25,7 @@ CAD_files/DFX_laser_cutting/ : *CAD files that can be used for laser cutting the
 
  
 
-CAD_files/F3D_files/ : *CAD files to 3D print the different pieces for reproducing the device*
+CAD_files/F3D_files/ : *Fusion files of the different pieces*
 
 - Support_1.f3d
 - Support_2.f3d
@@ -39,7 +39,7 @@ CAD_files/F3D_files/ : *CAD files to 3D print the different pieces for reproduci
 - window_frame_final v4.f3d
 
 
-CAD_files/STEP_files/
+CAD_files/STEP_files/ : *Files for 3D printing*
 
 - Support_1.step
 - Support_2.step
