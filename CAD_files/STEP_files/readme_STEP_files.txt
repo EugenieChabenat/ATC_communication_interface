@@ -1,0 +1,1 @@
+This folder contains the 3D pieces to be manufactured in order to reproduce the device. These pieces are provided in a neutral .stp format, which can be opened in any CAD software. 
