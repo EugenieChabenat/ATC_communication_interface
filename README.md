@@ -76,9 +76,9 @@ CAD_files/STL_3D_printing/
 
 - arduino_code/pitches.h	:   *Definition of sound notes for the buzzer*
 
-- arduino_code/prototype_final_V9.ino : *Useful file implementing the module MPR121, LED WS2813*
+- arduino_code/prototype_final_V9.ino : *Useful file implementing the module MPR121 and the module LED WS2813*
 
-  - Sub Sensing logic:  *We keep track of the touched values and  taking into consideration a specific priority order we activate a sensor after TIME_FOR_ACTIVATION* 
+  - Sub Sensing logic:  *We keep track of the touched values and  taking into consideration a specific priority order we activate a sensor after TIME_FOR_ACTIVATION * 
     
                                   
                                   
