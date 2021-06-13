@@ -68,11 +68,11 @@ CAD_files/STL_3D_printing/
 - arduino_code/definitions.h   : *Definition of useful variables*
                                  Important constants:
                                  
-  - TIME_FOR_ACTIVATE: Define the time that a sensor be touched before it becomes active [ms]
+  - TIME_FOR_ACTIVATE: Define the time that a sensor is touched before it becomes active [ms]
                                  
-  - ADVANCE_TIME: Define the time for which the sensor is activated. (allowed time to scroll)
+  - ADVANCE_TIME: Define the time for which the sensor is activated. (allowed time to scroll) [ms]
                                  
-  - TIME_STEP: Define the time between spend to navigate between each case in Grid 3
+  - TIME_STEP: Define the time spend to navigate between each case in Grid 3 [ms]
 
 - arduino_code/pitches.h	:   *Definition of sound notes for the buzzer*
 
