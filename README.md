@@ -68,17 +68,17 @@ CAD_files/STL_3D_printing/
 - arduino_code/definitions.h   : *Definition of useful variables*
                                  Important constants:
                                  
-  - Sub TIME_FOR_ACTIVATE: Define the time that a sensor be touched before it becomes active [ms]
+  - TIME_FOR_ACTIVATE: Define the time that a sensor be touched before it becomes active [ms]
                                  
-  - Sub ADVANCE_TIME: Define the time for which the sensor is activated. (allowed time to scroll)
+  - ADVANCE_TIME: Define the time for which the sensor is activated. (allowed time to scroll)
                                  
-  - Sub  TIME_STEP: Define the time between spend to navigate between each case in Grid 3
+  - TIME_STEP: Define the time between spend to navigate between each case in Grid 3
 
 - arduino_code/pitches.h	:   *Definition of sound notes for the buzzer*
 
 - arduino_code/prototype_final_V9.ino : *Useful file implementing the module MPR121 and the module LED WS2813*
 
-  - Sub Sensing logic:  *We keep track of the touched values and  taking into consideration a specific priority order we activate a sensor after TIME_FOR_ACTIVATION* 
+  - Sensing logic:  *We keep track of the touched values and  taking into consideration a specific priority order we activate a sensor after TIME_FOR_ACTIVATION* 
     
                                   
                                   
