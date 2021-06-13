@@ -79,8 +79,8 @@ CAD_files/STL_3D_printing/
 - arduino_code/prototype_final_V9.ino : *Useful file implementing the module MPR121 and the module LED WS2813*
 
   - Sensing logic:  
-   - *We keep track of the touched values and  taking into consideration a specific priority order we activate a sensor after TIME_FOR_ACTIVATION* 
-   - *Activating a sensor means sending a message through Serial communication with the value identifying it and then waiting TIME_STEP to send another identification value until reaching the ADVANCE_TIME*
+      - *We keep track of the touched values and  taking into consideration a specific priority order we activate a sensor after TIME_FOR_ACTIVATION* 
+      - *Activating a sensor means sending a message through Serial communication with the value identifying it and then waiting TIME_STEP to send another identification value until reaching the ADVANCE_TIME*
            
   
                               
