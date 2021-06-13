@@ -99,6 +99,12 @@ CAD_files/STL_3D_printing/
 - python_code/Serial_1.0.py   : *useful functions for controling the device*
 
 
+**documentation**
+
+-ATC_Team_Communication_User_Manual.pdf :  *pdf file to be carefully read by the users of the manifactured device*
+
+-ATC_Team_Communication_Open_Access_report.pdf : *pdf report to be followed in order to reproduce the project device*
+
 
 
 
