@@ -1,0 +1,1 @@
+This folder contains the pieces that were 3D printed. The pieces are provided in the .stl format which is the format usually used on slicing softwares. It allows to print these parts on any 3d printer. In our case, the pieces were printed on a Prusa MK3S printer using a PETG filament. Each file contains in its name the number of pieces that need to be produced. 
