@@ -1,7 +1,7 @@
 /**************************************
- * Test pour activer les capteurs en glissant la main sur la cover window
- * 
- * 
+ * Arduino File : ATC project : Team interface communication 
+ * Summer Semester 2021 EPFL
+ * Authors : Marwen Mokni, Eugénie Chabenat, Jonathan Muheim , Laura puyet
  **************************************/
 
 
@@ -562,7 +562,7 @@ void recvWithEndMarker(void) {
     }
 }
 
-// We will try to change the threshold value 
+// We will try to change the parameter values 
 bool set_threshold_value(void)
 {
   if(newData == true)
@@ -609,7 +609,7 @@ bool set_threshold_value(void)
 
 
 
-
+// This function is useful to generate a sound using the piezo buzzer
 
 void tone_time_pressed(){
 
