@@ -1,8 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Apr 29 15:59:29 2021
 
-@author: Marwen
+"""
+Created for the ATC project: Project communication interface
+
+@author: Marwen Mokni
 """
 
 import serial
@@ -15,7 +15,7 @@ import time
 
 
 
-
+# This function is useful to write back to the arduino and verify if the value was set in the arduino
 def write_data(x, index):
 
     value = "{}{}f".format(int(x),index) # we attach here the value of the advance time with 'a' the index coresponding 
@@ -28,12 +28,13 @@ def write_data(x, index):
 
 
 
+# Connect to the serial COM port
 def connect_to_arduino_if_exist():
     print("Connection to Arduino")
     arduino_ports = [
         p.device
         for p in serial.tools.list_ports.comports()
-        if 'Arduino' in p.description  # may need tweaking to match new arduinos
+        if 'Arduino' in p.description  # May need adjustments to match other devices
     ]
     try:
         if not arduino_ports:
@@ -72,8 +73,6 @@ if ser == []:
     
 
 ## This part will be useful to adapt the different values of our arduino:
-
-
 set_values = input("Do you want to change the parameters: ") # Taking input from user
 ser.write(bytes(set_values, 'utf-8'))
 if(set_values == '1'):
@@ -87,16 +86,22 @@ if(set_values == '1'):
     # Adapting the threshold can be optional if we have higher sensitivity of the capacitive sensors
     """
     threshold = input("Insert the threshold for the sensors: ")
-    value = "{}af".format(int())
+    write_data(threshold, 'a')
     """
 else:
     print("The arduino is working with the initial set values")
 
 
+
+
+
+    
+# Main loop of the python file that sense the values given by the arduino
 while True:
     # Ce code fonctionne pour voir la valuer du bouton touched et released 
     ser_bytes = ser.readline().decode('ascii')
-    #a, b = [int(s) for s in ser_bytes] 
+
+
     a = int(ser_bytes)
     print("The pushed button is {} corresponding to the key: {}  ".format(a, key(a) ))
     
@@ -111,6 +116,3 @@ while True:
          pyautogui.press(key(a))
 
     
-    # We know store the ints from the arduino we only need to access to grid 
-    # A solution is to use Pyautogui
-
