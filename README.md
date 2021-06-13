@@ -25,7 +25,7 @@ CAD_files/DFX_laser_cutting/ : *CAD files that can be used for laser cutting the
 
  
 
-CAD_files/F3D_files/ : *Fusion files of the different pieces*
+CAD_files/F3D_files/ : *Fusion files of the different pieces for 3d printing*
 
 - Support_1.f3d
 - Support_2.f3d
@@ -67,14 +67,21 @@ CAD_files/STL_3D_printing/
 
 - arduino_code/definitions.h   : *Definition of useful variables*
                                  Important constants:
-                                 - TIME_FOR_ACTIVATE: Define the time that a sensor be touched before it becomes active [ms]
-                                 - ADVANCE_TIME: Define the time for which the sensor is activated. (allowed time to scroll)
-                                 - TIME_STEP: Define the time between spend to navigate between each case in Grid 3
+                                 
+  - Sub TIME_FOR_ACTIVATE: Define the time that a sensor be touched before it becomes active [ms]
+                                 
+  - Sub ADVANCE_TIME: Define the time for which the sensor is activated. (allowed time to scroll)
+                                 
+  - Sub  TIME_STEP: Define the time between spend to navigate between each case in Grid 3
 
 - arduino_code/pitches.h	:   *Definition of sound notes for the buzzer*
 
 - arduino_code/prototype_final_V9.ino : *Useful file implementing the module MPR121, LED WS2813*
-                                  -Sensing logic:
+
+  - Sub Sensing logic:  *We keep track of the touched values and  taking into consideration a specific priority order we activate a sensor after TIME_FOR_ACTIVATION* 
+    
+                                  
+                                  
                                                        
 
 
