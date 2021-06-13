@@ -69,7 +69,7 @@ CAD_files/STL_3D_printing/
 
 
 
-**arduino_code**  : *Files for communication with the arduino MCU*
+**arduino_code**  : *Files to be uploaded on the arduino MCU*
 
 - arduino_code/definitions.h   : *Definition of useful variables*
                                  Important constants:
