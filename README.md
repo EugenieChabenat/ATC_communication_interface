@@ -84,9 +84,11 @@ CAD_files/STL_3D_printing/
 
 
 
-
-## Set up the interface 
+## Requirements 
+pip install -r requirements.txt to install all the dependencies
 
 ## Launch 
+- Launch Grid3 software
+- Execute Serial_1.0.exe on the terminal of the computer
+- Choose parameters of use via the terminal 
 
-## Requirements 
